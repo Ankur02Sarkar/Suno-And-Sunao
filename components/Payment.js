@@ -80,7 +80,8 @@ const Payment = () => {
 
   return (
     <div className={styles.main}>
-      <p className={styles.text}>Make payment</p>
+      <p className={styles.text}> To Continue</p>
+      <p className={styles.text}> Purchase a One Time Subscription for 0.1 SOL </p>
       <div className={styles.buttons}>
         <button 
           className={styles.button}
@@ -88,9 +89,9 @@ const Payment = () => {
         >
           Pay 0.1 Sol
         </button>
-        <button className={styles.button} onClick={getAllWallets}>
+        {/* <button className={styles.button} onClick={getAllWallets}>
           Verify Payment
-        </button>
+        </button> */}
       </div>
     </div>
   )

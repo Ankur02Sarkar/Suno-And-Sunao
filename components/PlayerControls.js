@@ -45,10 +45,11 @@ const PlayerControls = ({songs}) => {
         <div className={styles.flexCenter}>
             <div className={styles.albumCoverContainer}>
                 <Image
-                src='https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png'
+                src='https://i.ibb.co/x3zGSFt/Profile-pic.jpg'
                 height={200}
                 width={200}
                 alt='song-cover'
+                
                 />
             </div>
             <div>

@@ -13,10 +13,13 @@ const nextConfig = {
       'encrypted-tbn1.gstatic.com',
       'resources.tidal.com',
       'angartwork.akamaized.net',
-      'cloudinary.com/'
+      'cloudinary.com/',
+      'i.ibb.co',
+      'deejayfarm.com',
+      'avatars.githubusercontent.com'
     ],
     loader: 'akamai',
-    path: '/',
+    path: '',
   },
 }
 

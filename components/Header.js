@@ -49,14 +49,14 @@ const Header = ({setShowUploadMusic}) => {
                 <div className={styles.profile}>
                     <div className={styles.profileAvatarContainer}>
                         <Image
-                        src='/assets/avatar.jpg'
+                        src='https://avatars.githubusercontent.com/u/78259188'
                         width={20}
                         height={20}
                         alt='avatar'
                         className='rounded-full'
                         />
                     </div>
-                    <p>Lance Toledo</p>
+                    <p>Ankur Sarkar</p>
                 </div>
             </div>
         </div>
@@ -70,12 +70,12 @@ const Header = ({setShowUploadMusic}) => {
             />
 
             <div className="ml-5">
-                <>Album</>
+                <p className='album'>Album</p>
                 <div className={styles.title}>{currentSong.album}</div>
                 <div className='flex items-center mt-5'>
                     <div className={styles.profileAvatarContainer}>
                         <Image
-                          src="/assets/avatar.jpg"
+                          src="https://avatars.githubusercontent.com/u/78259188"
                           width={20}
                           height={20}
                           alt='artist'
